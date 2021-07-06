@@ -1,0 +1,114 @@
+.header_container {
+    width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 1px;
+}
+#header {
+    background-color: var(--brand1);
+}
+.header_content {
+    height: 65px;
+}
+.logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 30px;
+}
+/* ------------------------------------------------------------------------nav-------------------------------------------------------------- */
+#nav {
+    background-color: var(--brand1);
+    height: 49px;
+}
+.nav_container {
+    width: 1280px;
+    margin: 0 auto;
+}
+.nav_content {
+    color: var(--w);
+}
+.nav_list {
+    display: flex;
+}
+.nav_list li{
+    display: flex;
+    font-size: 20px;
+    margin: 0 10px;
+    line-height: 49px;
+}
+/* ------------------------------------------------blank----------------------------------------------------------------------------------- */
+.blank {
+    background-color: #F8F8F8;
+    height: 295px;
+    margin-bottom: 30px;
+}
+/* --------------------------------------------------big news---------------------------------------------------------------------------- */
+.big_news {
+    margin-bottom: 25px;
+}
+.big_news_img img {
+    width: 100%;
+}
+.big_news_content h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.big_news_content p {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+.big_news_content span {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.big_news_content .linked_news {
+    font-size: 19px;
+    margin-bottom: 5px;
+    position: relative;
+    line-height: 50px;
+    font-weight: 600;
+    color: var(--black);
+}
+.big_news_content .linked_news::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--row);
+
+}
+
+/* ------------------------------------------------------------news------------------------------------------------------------------------- */
+.short_news {
+    padding-bottom: 25px;
+}
+.s_news_body {
+    
+}
+.s_news_body .s_news_img {
+
+}
+.s_news_body .s_news_img img {
+    width: 100%;
+    
+}
+.s_news_body .s_news_content h4 {
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.p_light_black {
+    color: var(--light_b);
+}
+.s_news_body .s_news_content span {
+    line-height: 30px;
+    font-size: 18px;
+    
+}

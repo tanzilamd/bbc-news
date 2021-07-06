@@ -1,0 +1,148 @@
+*, 
+html,
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    scroll-behavior: smooth;
+    border: 0;
+    font-family: "shonar-bangla";
+}
+body {
+    background-color: #FDFDFD;
+}
+:root {
+    --border: 1px solid rgb(11, 182, 173);
+    --brand1: #B80000;
+    --w: #FFFFFF;
+    --black: #222222;
+    --p: #3F3F42;
+    --light_b: #6E6E73;
+    --row: #F2F2F2;
+    --bg: #FDFDFD;
+}
+.container {
+    width: 1010px;
+    margin: 0 auto;
+}
+.all_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.justify_center {
+    display: flex;
+    justify-content: center;
+}
+.align_center {
+    display: flex;
+    align-items: center;
+}
+a, 
+span, 
+i {
+    text-decoration: none;
+    display: inline-block;
+}
+a {
+    color: var(--w);
+}
+.text_right {
+    text-align: right;
+}
+.text_center {
+    text-align: center;
+}
+a:hover {
+    transition: all linear 3s;
+}
+ul li {
+    list-style-type: none;
+}
+@font-face {
+    font-family: "shonar-bangla";
+    src: url(./fonts/Shonar.ttf);
+}
+
+h1 {
+    color: var(--black);
+}
+h3 {
+    color: var(--black);
+}
+h1 {
+    color: var(--black);
+}
+p {
+    color: var(--p);
+}
+span {
+    color: var(--light_b);
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12{
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1 {
+    width: 8.333333333333334%;
+    flex: 0 0 8.333333333333334%;
+}
+.col-2 {
+    width: calc(8.333333333333334%*2);
+    flex: 0 0 calc(8.333333333333334%*2);
+}
+.col-3 {
+    width: calc(8.333333333333334%*3);
+    flex: 0 0 calc(8.333333333333334%*3);
+}
+.col-4 {
+    width: calc(8.333333333333334%*4);
+    flex: 0 0 calc(8.333333333333334%*4);
+}
+.col-5 {
+    width: calc(8.333333333333334%*5);
+    flex: 0 0 calc(8.333333333333334%*5);
+}
+.col-6 {
+    width: calc(8.333333333333334%*6);
+    flex: 0 0 calc(8.333333333333334%*6);
+}
+.col-7 {
+    width: calc(8.333333333333334%*7);
+    flex: 0 0 calc(8.333333333333334%*7);
+}
+.col-8 {
+    width: calc(8.333333333333334%*8);
+    flex: 0 0 calc(8.333333333333334%*8);
+}
+.col-9 {
+    width: calc(8.333333333333334%*9);
+    flex: 0 0 calc(8.333333333333334%*9);
+}
+.col-10 {
+    width: calc(8.333333333333334%*10);
+    flex: 0 0 calc(8.333333333333334%*10);
+}
+.col-11 {
+    width: calc(8.333333333333334%*11);
+    flex: 0 0 calc(8.333333333333334%*11);
+}
+.col-12 {
+    width: calc(8.333333333333334%*12);
+    flex: 0 0 calc(8.333333333333334%*12);
+}
