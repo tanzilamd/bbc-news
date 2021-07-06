@@ -20,6 +20,7 @@ body {
     --light_b: #6E6E73;
     --row: #F2F2F2;
     --bg: #FDFDFD;
+    --title_row: #AEAEB5;
 }
 .container {
     width: 1010px;

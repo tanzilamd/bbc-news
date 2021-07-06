@@ -112,3 +112,23 @@
     font-size: 18px;
     
 }
+/*------------------------------------------------corona----------------------------------------------------------------------*/
+.title {}
+.title .title_name {
+   margin-bottom: 45px; 
+}
+.title .title_name h4 {
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--p);
+    position: relative;
+}
+.title .title_name h4::before {
+    content: "";
+    position: absolute;
+    bottom: 40%;
+    right: 0;
+    height: 1px;
+    width: 86%;
+    background-color: var(--title_row);
+}
