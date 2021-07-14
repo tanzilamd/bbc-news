@@ -54,12 +54,12 @@
 .big_news_content h1 {
     font-size: 32px;
     font-weight: 700;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 .big_news_content p {
     font-size: 22px;
-    line-height: 30px;
-    margin-bottom: 5px;
+    line-height: 32px;
+    margin-bottom: 20px;
 }
 .big_news_content span {
     font-size: 20px;
@@ -113,6 +113,9 @@
     
 }
 /*------------------------------------------------corona----------------------------------------------------------------------*/
+#corona{
+    margin-bottom: 25px;
+}
 .title {}
 .title .title_name {
    margin-bottom: 45px; 
@@ -126,9 +129,13 @@
 .title .title_name h4::before {
     content: "";
     position: absolute;
-    bottom: 40%;
+    bottom: 30%;
     right: 0;
     height: 1px;
     width: 86%;
     background-color: var(--title_row);
+}
+/* ------------------------------------------------audio and video-------------------------------------------------------- */
+#big_video h1 {
+    color: var(--light_b);
 }
