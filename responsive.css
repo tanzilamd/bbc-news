@@ -4,6 +4,13 @@
         width: 90%;
         margin: 0 auto;
     }
+    .header_container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .s_news_img img {
+        width: 100%;
+    }
     .col-xs-1{
         width: 8.333333333333334%;
         flex: 0 0 8.333333333333334%;
