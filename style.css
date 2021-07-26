@@ -179,6 +179,7 @@
 /* ---------------------------------------------------footer------------------------------------------------------------------------------ */
 #footer {
     width: 100%;
+    margin-top: 30px;
 }
 .f_top {
     background-color: var(--brand1) !important;
@@ -282,8 +283,20 @@ img {
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
-
-    
+    .header_container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .big_news_content {
+        margin-top: 25px;
+    }
+    #header {
+        border-bottom: 1px solid white;
+    }
+    .footer_container {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
