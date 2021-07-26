@@ -256,8 +256,8 @@ img {
         margin: 0 auto;
     }
     .header_container{
-        width: 100%;
-        margin: 0 auto;
+        width: 90%;
+        
     }
     .s_news_img img {
         width: 100%;
@@ -267,6 +267,17 @@ img {
     }
     .footer_container {
         width: 90%;
+        margin: 0 auto;
+    }
+    .nav_container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .logo {
+        /* padding-left: 25px; */
+    }
+    .single_news_content {
+        margin-top: 20px;
     }
 }
 /* Small devices (landscape phones, 576px and up) */
