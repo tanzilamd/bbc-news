@@ -222,3 +222,18 @@
 hr {
     color: white;
 }
+/* ---------------------------------------hover---------------------------------------------------- */
+h1:hover,
+h2:hover,
+h3:hover,
+.s_news_body h4:hover,
+.news_number_content h4:hover,
+h5:hover,
+h6:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+img {
+    cursor: pointer;
+}
