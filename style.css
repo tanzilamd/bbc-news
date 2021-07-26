@@ -160,10 +160,12 @@
 /* ------------------------------------------number------------------------------------------------------------------------------ */
 .news_number_content li {
     display: flex;
+    list-style: none;
 }
 .news_number_content li p {
     font-size: 60px;
     color: var(--brand1);
+    font-weight: bold;
 }
 .news_number_content li h4 {
     display: flex;
@@ -171,5 +173,52 @@
     vertical-align:top;
     font-size: 28px;
     font-weight: 600;
-    margin-left: 10px;
+    margin-left: 20px;
+}
+/* ---------------------------------------------------footer------------------------------------------------------------------------------ */
+#footer {
+    width: 100%;
+}
+.f_top {
+    background-color: var(--brand1) !important;
+}
+.footer_container {
+    width: 1300px;
+    margin: 0 auto;
+    
+}
+.footer_logo {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.f_body {
+    background-color: var(--black);
+    
+}
+.f_body h3 {
+    font-size: 24px !important;
+}
+.footer_logo img {
+    height: 25px;
+}
+.f_body h3 {
+    color: white;
+}
+.body_top {
+    color: white;
+    padding-top: 25px;
+}
+.body_top {
+    
+}
+.body_middle h3 {
+    padding-top: 10px;
+}
+.body_bottom h3 {
+    color: white !important;
+    padding: 10px 0;
+}
+hr {
+    color: white;
 }
