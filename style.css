@@ -343,7 +343,21 @@ img {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width:1399.98px) {
-    
+    .header_container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .footer_container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #header {
+        border-bottom: 1px solid white;
+    }
+    .nav_container {
+        width: 100%;
+        margin: 0 auto;
+    }   
 }
 
 @media (min-width: 1400px) {
