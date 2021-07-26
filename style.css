@@ -157,3 +157,19 @@
 .single_news .single_news_content span {
     font-size: 20px;
 }
+/* ------------------------------------------number------------------------------------------------------------------------------ */
+.news_number_content li {
+    display: flex;
+}
+.news_number_content li p {
+    font-size: 60px;
+    color: var(--brand1);
+}
+.news_number_content li h4 {
+    display: flex;
+    align-items: center;
+    vertical-align:top;
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 10px;
+}
