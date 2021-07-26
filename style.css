@@ -102,6 +102,7 @@
     line-height: 24px;
     font-size: 20px;
     font-weight: 700;
+    margin-top: 10px;
 }
 
 .p_light_black {
@@ -118,7 +119,7 @@
 }
 .title {}
 .title .title_name {
-   margin-bottom: 45px; 
+   margin-bottom: 35px; 
 }
 .title .title_name h4 {
     font-size: 28px;
@@ -129,7 +130,7 @@
 .title .title_name h4::before {
     content: "";
     position: absolute;
-    bottom: 30%;
+    bottom: 50%;
     right: 0;
     height: 1px;
     width: 86%;
@@ -138,4 +139,21 @@
 /* ------------------------------------------------audio and video-------------------------------------------------------- */
 #big_video h1 {
     color: var(--light_b);
+}
+
+/* ----------------------------------------------------single news---------------------------------------------------------------- */
+.single_news {
+    margin-bottom: 40px;
+}
+.single_news .single_news_img img {
+    width: 100%;
+}
+.single_news .single_news_content h2 {
+    font-weight: bold;
+}
+.single_news .single_news_content p {
+    font-size: 20px;
+}
+.single_news .single_news_content span {
+    font-size: 20px;
 }
