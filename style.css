@@ -37,6 +37,7 @@
     font-size: 20px;
     margin: 0 10px;
     line-height: 49px;
+    position: relative;
 }
 /* ------------------------------------------------blank----------------------------------------------------------------------------------- */
 .blank {
@@ -236,4 +237,13 @@ h6:hover
 }
 img {
     cursor: pointer;
+}
+.nav_list li:hover::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    height: 5px;
+    width: 145%;
 }
